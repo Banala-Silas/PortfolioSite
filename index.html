@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silas Banala Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="PortfolioNameImage.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#certificate-section">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" class="cross" onclick="closemenu()"><path fill="currentColor" d="m13.06 12l4.42-4.42a.75.75 0 1 0-1.06-1.06L12 10.94L7.58 6.52a.75.75 0 0 0-1.06 1.06L10.94 12l-4.42 4.42a.75.75 0 0 0 0 1.06a.75.75 0 0 0 1.06 0L12 13.06l4.42 4.42a.75.75 0 0 0 1.06 0a.75.75 0 0 0 0-1.06Z"/></svg>
+            </ul>
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" class="cross" onclick="openmenu()"><path fill="currentColor" d="M3 18v-2h18v2zm0-5v-2h18v2zm0-5V6h18v2z"/></svg>
+        </nav>
+        <div class="header-text">
+            <p>Data Analyst</p>
+            <h2>Hi, I am <span>Silas</span> Banala<br> From Andhra Pradesh, <span>India</span></h2>
+        </div>
+        <div class="social-icons">
+        <a href="https://linkedin.com/in/silasbanala577577"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"/></svg></a>
+        <a href="https://github.com/Banala-Silas"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></a>
+        </div>    
+        <a href="Silas_Banala_DA.pdf" download class="btnn btnn2">Download Resume</a>
+    </div>
+    
+</div>
+<!----------------about---------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Silas.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="aboutpara" style="text-align: justify;">
+                    Passionate about data analytics, I am an aspiring data analyst 
+                    <span class="in-para">actively seeking opportunities to apply my analytical skills and drive impactful insights</span>. 
+                    With hands-on experience in SQL, Excel, Python, and proficiency in data visualization tools like Power BI, I am well-equipped to tackle complex data challenges. 
+                    <span class="in-para">Having participated in numerous Data Analysis Challenges and completed projects utilizing SQL and Power BI to address real-world business problems</span>, 
+                    I am eager to contribute my expertise to projects that demand innovation and data-driven decision-making.
+                </p>
+                                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick ="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick ="opentab('education')">Education</p>
+                    <p class="tab-links" onclick ="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <table style="width: 100%; border-collapse: collapse; text-align: left;">
+                        
+                        <tr>
+                            <td style="padding: 10px; border-bottom: 1px solid #000000;">PYTHON </td>
+                            <td style="padding: 10px; border-bottom: 1px solid #000000;">PANDAS, NUMPY, MATPLOTLIB, SEABORN</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px; border-bottom: 1px solid #000000;">MYSQL</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #000000;">JOINS, CTE, PARTITIONS, SUB QUERIES</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px; border-bottom: 1px solid #000000;">POWER BI</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #010101;">DAX, DATA MODELING, DATA VISUALIZATION, POWER QUERY</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px; border-bottom: 1px solid #000000;">MACHINE LEARNING</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #000000;">SUPERVISED ML, UN-SUPERVISED ML</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px; border-bottom: 1px solid #000000;">NLP(BASICS)</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #000000;">TOKENIZATION, STEMMING, LEMMATIZATION, POS TAGGING</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px; border-bottom: 1px solid #000000;">EXCEL</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #000000;">FORMULAS, PIVOT TABLES, CONDITIONAL FORMATING</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px; border-bottom: 1px solid #000000;">STATISTICS</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #000000;">DESCRIPTIVE STATISTICS</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px; border-bottom: 1px solid #000000;">WEB SCRAPING</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #000000;">BEAUTIFUL SOUP</td>
+                        </tr>
+                        
+                        
+                    </table>
+                </div>
+                
+                
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020 - 2024</span><br>B.E in Computer Science Engineering With Spl. In Data Science | CGPA: 9.4<br>Graduated from Sathyabama Institute of Science and Technology, Chennai</li>
+                        <li><span>2018 - 2020</span><br>Intermediate (MPC) | CGPA: 9.88<br>Aditya Junior College, Tadepalligudem</li>
+                        <li><span>2018</span><br>SSC | CGPA: 10<br>St. Ann's English Medium School, Tadepalligudem</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span > <p  class="aboutpara" style="text-align: justify;" style="text-align: justify;">DataAnalyst [AI Magix Chennai]   Since April'24</p></span>
+                            <p class="aboutpara" style="text-align: justify;" style="text-align: justify;"><br>• Bajaj Inspection<br></p>
+                            <p   style="text-align: justify;"> Developed and implemented a high-quality, real-time Power BI dashboard for Bajaj compan  inspec
+                             tion analysis, incorporating live data from SQL Server and validating end-user experience to enhance
+                             decision-making and operational efficiency. Enabled end-users to monitor inspection statuses (pass, fail, overridden, pending) in real-time, im
+                            proving decision-making and operational efficiency. Produced, analyzed, and suggested actionable insights through data visualizations that contributed to
+                             a 15% improvement in inspection accuracy and a 10% reduction in process delays, adapting the dash
+                            board for optimal performance.</p>
+                            <p  class="aboutpara" style="text-align: justify;" style="text-align: justify;"><br>•Kirloskar Brothers Limited (KBL)- Call Center Data Analysis<br></p></span>
+                             <p  style="text-align: justify;">Designed and developed a robust database in SQL Server for call center data, creating and optimizing
+                             tables to support efficient data storage and retrieval. Performed ETL processes in Power Query and conducted exploratory data analysis (EDA) to prepare
+                             data for in-depth analysis and visualization. Developed and implemented Power BI dashboards that analyze customer calls, providing actionable
+                             insights such as call summaries, next steps, recommendations, and customer satisfaction scores, improv
+                            ing decision-making and enhancing customer experience.</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--------projects------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="CarDashboard.png" width="50" height="250">
+                <div class="layer">
+                    <h3>Cars Sales Dashboard (Power BI)</h3>
+                    <p>Generated sales insights for a car company, focusing on trends from 2019 to 2022 for their branded vehicles.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <div class="buttonss">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Banala-Silas/CarInsights' ">GitHub</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://app.powerbi.com/view?r=eyJrIjoiYzgwNDM0OGItMGY1YS00ZTM1LTkwYTktYjIyODY3MDU3ZmRmIiwidCI6IjdlNzE3ZjU0LTRmMWUtNGVmOS04NDQ0LThjYzU5NTIxNGNlMSJ9' ">Live Demo</button>
+                </div>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Blinkit.png" width="50" height="250">
+                <div class="layer">
+                    <h3>Blinkit Data Analysis (Power BI)</h3>
+                    <p>Analyzed Blinkit data using Power BI to assess store performance and identify opportunities for business growth.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <div class="buttonss">
+                        
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Banala-Silas/Blinkit' ">GitHub</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://app.powerbi.com/view?r=eyJrIjoiMzc3Y2U2OTktMDg5Yy00Y2JiLTgzYWEtNzEyZGUxYzI2MWRmIiwidCI6IjdlNzE3ZjU0LTRmMWUtNGVmOS04NDQ0LThjYzU5NTIxNGNlMSJ9' ">Live Demo</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Finance.png" width="50" height="250">
+                <div class="layer">
+                    <h3>Finance Dashboard (Power BI)</h3>
+                    <p>Developed a finance dashboard to analyze trends from 2021 to 2024, providing insights into financial performance & growth.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <div class="buttonss">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Banala-Silas/Finance' ">GitHub</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://app.powerbi.com/view?r=eyJrIjoiNzZiY2U5ODMtZGM5YS00NzA1LWFjZDctYTA5MDQwNjY4MmI1IiwidCI6IjdlNzE3ZjU0LTRmMWUtNGVmOS04NDQ0LThjYzU5NTIxNGNlMSJ9' ">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="work-list">
+            <div class="work">
+                <img src="IPL.png" width="50" height="250">
+                <div class="layer">
+                    <h3><br>IPL ,Team Wining Probability<br> (Machine Learning) </h3>
+                    <p>Predicted IPL team winning probabilities using a Random Forest machine learning model, delivering accurate insights into match outcomes.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <div class="buttonss">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Banala-Silas/Ipl' ">GitHub</button>
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <img src="CKD.png" width="50" height="250">
+                <div class="layer">
+                    <h3>Chronic Kidney Disease Prediction (Machine Learning)</h3>
+                    <p>Implemented a machine learning model to predict chronic kidney disease, enabling early detection and improved patient outcomes.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <div class="buttonss">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Banala-Silas/ChronicKidneyDiseasePrediction' ">GitHub</button>
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <img src="spty.png" width="50" height="250">
+                <div class="layer">
+                    <h3>Spotify Songs Analysis (MYSQL)</h3>
+                    <p>Analyzed Spotify song data to uncover trends in popular music, including factors like tempo, energy, and genre influence, providing insights for music producers and listeners.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <div class="buttonss">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Banala-Silas/SpotifySongsAnalysis' ">GitHub</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Banala-Silas?tab=repositories" class="btnn">More Projects</a>
+    </div>
+</div>
+
+
+<!------------Awards and Certificate----------------->
+
+<div id="certificate-section">
+    <div class="container">
+        <h1 class="sub-title">Awards & Certificate</h1>
+        <div class="work-list">
+            <div class="work">
+                <img class="cert-img" src="Schlorship-Certificate.jpg"  width="50" height="250" style="border: 3px solid #59b2f4;">
+                <p class="para">1st Rank Holder in CSE With Data Science.</p>
+            </div>
+            <div class="work">
+                <img class="cert-img" src="PwC.png" width="50" height="250" style="border: 3px solid #59b2f4;">
+                <p class="para">PwC Internship Certificate</p>
+            </div>
+            <div class="work">
+                <img class="cert-img" src="Excel CodeBasics.jpg" width="50" height="250" style="border: 3px solid #59b2f4;">
+                <p class="para">Excel: Mother of Business Intelligence</p>
+            </div>
+        </div>
+        <div class="work-list">
+            <div class="work">
+                <img class="cert-img" src="DA-DataCamp.png" width="50" height="250" style="border: 3px solid #59b2f4;">
+                <p class="para">Data Analytics With Python Certificate By - DataCamp</p>
+            </div>
+            <div class="work">
+                <img class="cert-img" src="DS-DataCamp.png" width="50" height="250" style="border: 3px solid #59b2f4;">
+                <p class="para">Data Science With Python Certificate By - DataCamp</p>
+            </div>
+            <div class="work">
+                <img class="cert-img" src="Imat.png" width="50" height="250"   style="border: 3px solid #59b2f4;">
+                <p class="para">Sql And Python Certificate By - Imatricus Learning</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-----------contact----------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 14 14"><path fill="currentColor" fill-rule="evenodd" d="M11.821.098a1.62 1.62 0 0 1 2.077 2.076l-3.574 10.712a1.62 1.62 0 0 1-1.168 1.069a1.599 1.599 0 0 1-1.52-.434l-1.918-1.909l-2.014 1.042a.5.5 0 0 1-.73-.457l.083-3.184l7.045-5.117a.625.625 0 1 0-.735-1.012L2.203 8.088l-1.73-1.73a1.6 1.6 0 0 1-.437-1.447a1.62 1.62 0 0 1 1.069-1.238h.003L11.82.097Z" clip-rule="evenodd"/></svg>silasbanala@gmail.com</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256"><g fill="currentColor"><path d="M223.94 174.08A48.33 48.33 0 0 1 176 216A136 136 0 0 1 40 80a48.33 48.33 0 0 1 41.92-47.94a8 8 0 0 1 8.3 4.8l21.13 47.2a8 8 0 0 1-.66 7.53L89.32 117a7.93 7.93 0 0 0-.54 7.81c8.27 16.93 25.77 34.22 42.75 42.41a7.92 7.92 0 0 0 7.83-.59l25-21.3a8 8 0 0 1 7.59-.69l47.16 21.13a8 8 0 0 1 4.83 8.31" opacity="0.2"/><path d="m222.37 158.46l-47.11-21.11l-.13-.06a16 16 0 0 0-15.17 1.4a8.12 8.12 0 0 0-.75.56L134.87 160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16 16 0 0 0 1.32-15.06v-.12L97.54 33.64a16 16 0 0 0-16.62-9.52A56.26 56.26 0 0 0 32 80c0 79.4 64.6 144 144 144a56.26 56.26 0 0 0 55.88-48.92a16 16 0 0 0-9.51-16.62M176 208A128.14 128.14 0 0 1 48 80a40.2 40.2 0 0 1 34.87-40a.61.61 0 0 0 0 .12l21 47l-20.67 24.74a6.13 6.13 0 0 0-.57.77a16 16 0 0 0-1 15.7c9.06 18.53 27.73 37.06 46.46 46.11a16 16 0 0 0 15.75-1.14a8.44 8.44 0 0 0 .74-.56L168.89 152l47 21.05h.11A40.21 40.21 0 0 1 176 208"/></g></svg>+91 9493089440</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/silasbanala577577/"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"/></svg></a>
+                    <a href="https://github.com/Banala-Silas"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></a>
+                    
+                </div>
+                <a href="Silas_Banala_DA.pdf" download class="btnn btnn3">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://api.web3forms.com/submit" method="POST" >
+                    <input type="hidden" name="access_key" value="d895f14f-3c87-4fc2-bf0c-817cbfd146d2">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btnn btnn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+
+
+
+</body>
+</html>
