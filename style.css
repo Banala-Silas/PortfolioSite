@@ -388,6 +388,19 @@ nav .cross{
     .project-btn{
         margin-bottom: 15px;
     }
+    .work img {
+        height: 200px; /* Adjust this value as per your requirement */
+        object-fit: cover; /* Ensure the image scales properly */
+    }
+    
+    .buttonss{
+        
+        margin-top: 3px;
+    }
+    .work-list .work .layer p {
+        display: none;
+    }
+    
 }
 #msg{
     color: #61b752;
