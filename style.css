@@ -15,9 +15,17 @@ body{
 #header{
     width: 100%;
     height: 100vh;
+
     
     background-size: cover;
     background-position: center;
+}
+.right-class{
+    float: right;
+    right: 10px;
+    height: 540px;
+    width: 50%;
+    margin-top: 9%;
 }
 .container{
     padding: 10px 10%;
@@ -27,6 +35,12 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: fixed;
+
+    background-color:#59b2f4;
+    z-index: 1000;
+    top: 0;
+    width: 80%;
 }
 .logo{
     width: 140px;
@@ -38,7 +52,7 @@ nav ul li{
     margin: 10px 20px;
 }
 nav ul li a{
-    color: #fff;
+    color: #ffffff;
     text-decoration:none ;
     font-size: 18px;
     position: relative;
@@ -47,7 +61,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #59b2f4;
+    background: #ff6347;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -323,6 +337,26 @@ form .btnn2{
     text-align: center;
     margin-top: 6px;
 }
+/* Scrool To Top */
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #59b2f4; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #ff6347; /* Add a dark-grey background on hover */
+  }
 
 /*------------css for small screen-------------*/
 
@@ -332,11 +366,23 @@ nav .cross{
 
 @media only screen and (max-width:600px){
     .header-text{
-        margin-top: 50%;
+        margin-top: 25%;
         font-size: 30px;
     }
     .header-text h1{
         font-size: 30px;
+    }
+    body{
+        background-color: #000000;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: static;
+        background-color:#000000;
+        right: 4px;
     }
     nav .cross{
         display: block;
@@ -400,6 +446,20 @@ nav .cross{
     .work-list .work .layer p {
         display: none;
     }
+    .right-class{
+        display: none;
+    }
+    #myBtn{
+        padding: 10px; /* Some padding */
+        border-radius: 5px; /* Rounded corners */
+        font-size: 15px;
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 8px; 
+        background-color: #59b2f4;
+    }
+    #myBtn:hover {
+        background-color: #ff6347; /* Add a dark-grey background on hover */
+      }
     
 }
 #msg{
